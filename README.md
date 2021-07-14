@@ -13,7 +13,7 @@ const users = [
 ];
 ```
 
-For each hobby, count the number of users occupied with it.
+For each hobby, count and display the number of users occupied with it.
 
 ## 2
 
