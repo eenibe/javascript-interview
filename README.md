@@ -6,14 +6,14 @@ Assuming we have an array of users
 
 ```javascript
 const users = [
-  { name: "John", hobbies: ["singing", "walking", "playing guitar"] },
-  { name: "Terry", hobbies: ["swimming", "playing guitar"] },
-  { name: "Anna", hobbies: ["walking", "swimming", "playing guitar"] },
-  { name: "Paul", hobbies: ["swimming", "singing"] },
+  { name: "John", hobbies: ["Java", "C#", "Typescript"] },
+  { name: "Terry", hobbies: ["Java", "Typescript"] },
+  { name: "Anna", hobbies: ["C#", "Java", "Typescript"] },
+  { name: "Paul", hobbies: ["Java", "C#"] },
 ];
 ```
 
-For each hobby, count and display the number of users occupied with it.
+For each language, count and display the number of users using with it.
 
 ## 2
 
