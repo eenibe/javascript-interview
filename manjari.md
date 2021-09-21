@@ -13,7 +13,7 @@ const gamers = [
     },
     {
         id: 2,
-        name: 'Derrick',
+        name: 'Oxmond',
         rank: 1,
     },
     {
