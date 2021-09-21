@@ -2,18 +2,36 @@
 
 ## 1 
 
-Assuming we have an array of users
+Given below an array of object with duplicates, each object has an 'id' that can be used to identify it. Remove the duplicate object with lower rank.
 
 ```javascript
-const users = [
-  { name: "John", hobbies: ["Java", "C#", "Typescript"] },
-  { name: "Terry", hobbies: ["Java", "Typescript"] },
-  { name: "Anna", hobbies: ["C#", "Java", "Typescript"] },
-  { name: "Paul", hobbies: ["Java", "C#"] },
-];
+const gamers = [
+    {
+        id: 1,
+        name: 'Jason',
+        rank: 4,
+    },
+    {
+        id: 2,
+        name: 'Oxmond',
+        rank: 1,
+    },
+    {
+        id: 2,
+        name: 'Oxmond',
+        rank: 2, 
+    },
+    {
+        id: 3,
+        name: 'Authur',
+        rank: 3,
+    },
+]
 ```
 
-For each language, count and display the number of users using with it.
+- The duplicate objects cannot be removed using (Set) because the 2 objects has the same structure and their data have different references
+- (Map) can be used to have 'id' as the key and object as value
+- If 'id' is already present in the array, object with the higher rank can be retained
 
 ## 2
 
