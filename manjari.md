@@ -30,8 +30,8 @@ const gamers = [
 ```
 
 - The duplicate objects cannot be removed using (Set) because the 2 objects has the same structure and their data have different references
-- (Map) can be used to have 'id' as the key and object as value
-- If 'id' is already present in the array, object with the higher rank can be retained
+- (Map) could be used to make the 'id' a key and object as value
+- Given that 'id' is already present in the array, object with the higher rank can be determined.
 
 ## 2
 
